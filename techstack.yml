@@ -1,0 +1,255 @@
+repo_name: rlfagan/zap
+report_id: 14fa6898bad3890441dce8346d060d0f
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-20T23:00:55+00:00'
+requested_by: prashantv
+provider: github
+branch: master
+detected_tools_count: 18
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/rlfagan/zap
+  detection_source: Repo Metadata
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/rlfagan/zap/blob/master/zapgrpc/internal/test/go.mod
+  detection_source: zapgrpc/internal/test/go.mod
+  last_updated_by: Mikhail Mazurskiy
+  last_updated_on: 2021-02-12 21:10:49.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/rlfagan/zap/blob/master/.codecov.yml
+  detection_source: ".codecov.yml"
+  last_updated_by: Prashant Varanasi
+  last_updated_on: 2017-06-09 18:04:46.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rlfagan/zap
+  detection_source: Repo Metadata
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/rlfagan/zap/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Abhinav Gupta
+  last_updated_on: 2019-10-29 20:59:15.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/rlfagan/zap/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Akshay Shah
+  last_updated_on: 2016-02-19 23:47:00.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/rlfagan/zap
+  detection_source: Repo Metadata
+- name: yaml.v2
+  description: YAML support for the Go language
+  package_url: https://pkg.go.dev/gopkg.in/yaml.v2
+  version: 2.2.1
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/zap/blob/master/benchmarks/go.sum
+  detection_source: go.mod
+  last_updated_by: Shinichi TAMURA
+  last_updated_on: 2020-07-07 17:46:02.000000000 Z
+  vulnerabilities:
+  - name: Excessive Platform Resource Consumption within a Loop in Kubernetes
+    cve_id: CVE-2019-11254
+    cve_url: https://github.com/advisories/GHSA-wxc4-f4m6-wwqv
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 2.2.8
+- name: apex/log
+  description: Structured logging package for Go
+  package_url: https://pkg.go.dev/github.com/apex/log
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/zap/blob/master/benchmarks/go.sum
+  detection_source: benchmarks/go.mod
+  last_updated_by: Abhinav Gupta
+  last_updated_on: 2019-10-29 20:59:15.000000000 Z
+- name: atomic
+  description: Wrapper types for sync/atomic which enforce atomic access
+  package_url: https://pkg.go.dev/go.uber.org/atomic
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/zap/blob/master/benchmarks/go.sum
+  detection_source: glide.yaml
+  last_updated_by: Peter Edge
+  last_updated_on: 2016-12-13 19:44:20.000000000 Z
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  version: 0.8.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/zap/blob/master/benchmarks/go.sum
+  detection_source: go.mod
+  last_updated_by: Abhinav Gupta
+  last_updated_on: 2019-10-29 20:59:15.000000000 Z
+- name: kit
+  description: A standard library for microservices
+  package_url: https://pkg.go.dev/github.com/go-kit/kit
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/zap/blob/master/benchmarks/go.sum
+  detection_source: benchmarks/go.mod
+  last_updated_by: Abhinav Gupta
+  last_updated_on: 2019-10-29 20:59:15.000000000 Z
+- name: log15.v2
+  description: Package log15 provides an opinionated
+  package_url: https://pkg.go.dev/gopkg.in/inconshreveable/log15.v2
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/zap/blob/master/benchmarks/go.sum
+  detection_source: benchmarks/go.mod
+  last_updated_by: Abhinav Gupta
+  last_updated_on: 2019-10-29 20:59:15.000000000 Z
+- name: logrus
+  description: Structured, pluggable logging for Go
+  package_url: https://pkg.go.dev/github.com/sirupsen/logrus
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/zap/blob/master/benchmarks/go.sum
+  detection_source: benchmarks/go.mod
+  last_updated_by: Abhinav Gupta
+  last_updated_on: 2019-10-29 20:59:15.000000000 Z
+- name: stack
+  description: Package stack implements utilities to capture
+  package_url: https://pkg.go.dev/github.com/go-stack/stack
+  version: 1.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/zap/blob/master/benchmarks/go.sum
+  detection_source: benchmarks/go.mod
+  last_updated_by: Abhinav Gupta
+  last_updated_on: 2019-10-29 20:59:15.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/zap/blob/master/benchmarks/go.sum
+  detection_source: tools/go.mod
+  last_updated_by: Markus Thömmes
+  last_updated_on: 2021-02-12 16:10:01.000000000 Z
+- name: zap
+  description: Blazing fast, structured, leveled logging in Go
+  package_url: https://pkg.go.dev/go.uber.org/zap
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/zap/blob/master/benchmarks/go.mod
+  detection_source: benchmarks/go.mod
+  last_updated_by: Abhinav Gupta
+  last_updated_on: 2019-10-29 20:59:15.000000000 Z
+- name: zerolog
+  description: Zero Allocation JSON Logger
+  package_url: https://pkg.go.dev/github.com/rs/zerolog
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rlfagan/zap/blob/master/benchmarks/go.sum
+  detection_source: benchmarks/go.mod
+  last_updated_by: Abhinav Gupta
+  last_updated_on: 2019-10-29 20:59:15.000000000 Z
